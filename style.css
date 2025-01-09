@@ -54,16 +54,20 @@
     padding: 10px 20px;            
     background-color: #f9aa33;     
     color: #fff;
-    border-radius: 4px;           
+    border-radius: 4px;            
     text-decoration: none;
     font-weight: 600;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: 
+      background-color 0.3s ease, 
+      box-shadow 0.3s ease, 
+      transform 0.2s ease;
   }
 
 
   .menu li a:hover {
     background-color: #faa943;
     transform: translateY(-2px);
+    box-shadow: 0 0 30px rgba(249, 170, 51, 0.7); 
   }
 
 
